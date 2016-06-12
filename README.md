@@ -6,7 +6,7 @@ The IBM Watson [Retrieve and Rank][service_url] service helps users find the mos
 Give it a try! Click the button below to fork into IBM DevOps Services and deploy your own copy of this application on Bluemix.  
 [![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/watson-developer-cloud/retrieve-and-rank-java)
 
-View a [demo](http://retrieve-and-rank-demo.mybluemix.net/) of this app.
+View a [demo](http://retrieve-and-rank-demo.mybluemix.net/rnr-demo/dist/#/) of this app.
 
 ## How it works
 This application uses publicly available test data called the [Cranfield collection](http://ir.dcs.gla.ac.uk/resources/test_collections/cran/). The collection contains abstracts of aerodynamics journal articles, a set of questions about aerodynamics, and labels to mark how relevant an article is to a question. Some questions are not used as training data, which means that you can use them to validate the performance of the trained ranker. This subset of questions are are used in the demo.
