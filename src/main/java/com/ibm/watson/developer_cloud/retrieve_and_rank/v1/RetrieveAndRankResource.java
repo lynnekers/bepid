@@ -71,8 +71,8 @@ public class RetrieveAndRankResource {
     String clusterId = System.getenv("CLUSTER_ID");
     String rankerId =  System.getenv("RANKER_ID");
     String collectionName = System.getenv("COLLECTION_NAME");
-    String username = "USERNAME";
-    String password = "PASSWORD";   
+    String username = "6fa5a6a6-f6c0-435b-8714-ed4160260e32";
+    String password = "XUEmnswlqOK8";   
     String endPoint = "https://gateway.watsonplatform.net/retrieve-and-rank/api";
 
     // Get username and password from the VCAP_SERVICES environment variable in Bluemix
