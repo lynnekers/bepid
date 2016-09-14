@@ -6,6 +6,7 @@ declared-services:
 applications:
 - services:
   - retrieve-and-rank-service
-  name: retrieve-and-rank-java
+  name: retrieve-and-rank-java-projetobluemix-1546
   path: target/webApp.war
   memory: 512M
+  host: retrieve-and-rank-java-projetobluemix-1546
