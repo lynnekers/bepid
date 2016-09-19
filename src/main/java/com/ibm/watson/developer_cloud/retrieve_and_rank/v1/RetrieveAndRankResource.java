@@ -68,11 +68,13 @@ public class RetrieveAndRankResource {
     
     // When running locally you need to provide values for the variables below
     // WHen running in Bluemix the values will be provided in the environment variables
-    String clusterId = System.getenv("CLUSTER_ID");
+    String clusterId = System.getenv("sc709dc831_956c_42c4_8f71_f6c04000850c");
     String rankerId =  System.getenv("RANKER_ID");
-    String collectionName = System.getenv("COLLECTION_NAME");
-    String username = "6fa5a6a6-f6c0-435b-8714-ed4160260e32";
-    String password = "XUEmnswlqOK8";   
+    String collectionName = System.getenv("Soccer");
+    
+    
+    String username = "973cf72e-7633-4120-a5c0-94acf9cbd21c";
+    String password = "HQhBJt2tBx3Q";   
     String endPoint = "https://gateway.watsonplatform.net/retrieve-and-rank/api";
 
     // Get username and password from the VCAP_SERVICES environment variable in Bluemix
